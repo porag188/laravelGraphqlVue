@@ -1,0 +1,8 @@
+query($featured: Boolean!) {
+  featured(featured: $featured) {
+    id
+    title
+    author
+    image
+  }
+}
